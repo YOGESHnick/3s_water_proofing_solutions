@@ -1,0 +1,123 @@
+*{
+    text-align: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+.try{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo{
+    max-width: 50px;
+}
+.top-logo{
+    margin-right: 5px;
+    margin-left:5px;
+}
+.tgl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: fit-content;
+}
+.navbar-brand{
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+}
+.Link{
+    background-color: transparent;
+    font-family: 'IBM Plex Mono';
+    text-decoration: none;
+    transition: transform .4s;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+.footerLink,a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #BFA57B;
+}
+.gimme-margin-top{
+    margin-top: 15px;
+}
+a button {
+    font-family: 'ptSerif';
+    font-weight: bolder;
+    height: 50px;
+    font-size: 20px;
+}
+.classes{
+    background-color: #000000;
+    color: #ffc800;
+}
+button{
+    border-radius: 5px;
+    padding: "5px";
+    color: "black";
+    background-color: #F7C97E;
+    border: none;
+    margin-top:35px;
+    font-family: 'ptSerif';
+    font-size: 18px;
+    width:150px ;
+}
+form button{
+    width:100%;
+    min-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color:#ffc800;
+}
+button:hover
+{
+    background-color: #38434A;
+    color: #F7C97E;
+}
+.classes:hover{
+    background-color: #38434A;
+    color: #F7C97E;
+}
+
+/* form */
+form
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+form input,textarea,select,button{
+    border-radius: 5px;
+    color: #382B4D;
+    border: none;
+    border-bottom: 2px solid #382B4D;
+    margin-top:35px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+form button{
+    width:100%;
+    min-height: 50px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    background-color: #382B4D;
+}
+form i {
+    margin-right: 10px;
+}
+form button:hover
+{
+    color:black;
+    background-color: #ffc800;
+    border: 5px solid black;
+}
+.phone1{
+    color: #F9F9F9;
+    background: transparent;
+}
+.fa-phone {
+    background: transparent;
+    margin-right: 5px;
+}
