@@ -21,14 +21,14 @@
 }
 .navbar-brand{
     font-family: 'IBM Plex Mono';
-    font-size: 20px;
+    font-size: 2vh;
 }
 .Link{
     background-color: transparent;
     font-family: 'IBM Plex Mono';
     text-decoration: none;
     transition: transform .4s;
-    font-size: 1.1em;
+    font-size: .9em;
     font-weight: bold;
     color: black;
 }
@@ -38,7 +38,7 @@
     color: #BFA57B;
 }
 .gimme-margin-top{
-    margin-top: 15px;
+    align-self: center;
 }
 a button {
     font-family: 'ptSerif';
