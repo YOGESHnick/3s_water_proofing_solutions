@@ -8,7 +8,6 @@ import {
   Grid,
   Stack,
 } from "@mui/material";
-// import YouTube from "../assets/yt_logo.png";
 
 const Image = styled("img")({
   maxWidth: "70%",
@@ -34,7 +33,7 @@ const Footer = () => {
             sx={{ lineHeight: isSmallScreen ? "1.0" : "normal" }}
             letterSpacing={2}
           >
-            SRI MEGALA KALAIKUDAM
+            3s Water Proofing Solutions
           </Typography>
         </Box>
         {/* next line */}
@@ -52,7 +51,7 @@ const Footer = () => {
                   letterSpacing={2}
                   fontSize={{ md: 30, xs: 25 }}
                 >
-                  Branch 1
+                  Address
                 </Typography>
                 <Typography
                   textAlign="left"
@@ -62,9 +61,9 @@ const Footer = () => {
                   color="#BFA57B"
                   fontSize={{ md: 20, xs: 15 }}
                 >
-                  Plot no. 1 07, door no. 1 ,<br />
-                  3rd cross street, padmavathy Nagar extension, <br />
-                  Madambakkam, Chennai- 600126
+                  No. 14, Vedavinayagar Street, <br />
+                  Gandhi Nagar, <br />
+                  Avadi, Chennai - 600 054
                 </Typography>
               </Box>
             </Grid>
@@ -81,7 +80,7 @@ const Footer = () => {
                   letterSpacing={2}
                   fontSize={{ md: 30, xs: 25 }}
                 >
-                  Branch 2
+                  Services Provided
                 </Typography>
                 <Typography
                   textAlign="left"
@@ -167,45 +166,35 @@ const Footer = () => {
           </Grid>
         </Box>
         {/* next line */}
-        <Box backgroundColor="transparent" mt={7} mb={5} textAlign="center">
+        <Box backgroundColor="transparent" mt={7} mb={2} textAlign="center">
+          <a href="https://shamlin.dev" target="_blank" rel="noreferrer">
+            <Typography
+              textAlign={isSmallScreen ? "left" : "right"}
+              variant="ptSerif"
+              fontWeight={400}
+              color="#BFA57B"
+              marginRight={1}
+              fontSize={{ md: 15, xs: 10 }}
+            >
+              Developed and maintained by Shamlin and
+            </Typography>
+          </a>
           <a
-            href="https://www.youtube.com/@deepikamegalaschool6412"
-            target="_blank" rel="noreferrer"
+            href="https://www.linkedin.com/in/sivaganesh-natarajavel-567a56237/"
+            target="_blank"
+            rel="noreferrer"
           >
-            {/* <Image
-              style={{
-                width: isSmallScreen ? "60%" : "50%",
-                maxWidth: "100px",
-                backgroundColor: "transparent",
-              }}
-              src={YouTube}
-              alt="YouTube-logo"
-            /> */}
+            <Typography
+              textAlign={isSmallScreen ? "left" : "right"}
+              variant="ptSerif"
+              fontWeight={400}
+              color="#BFA57B"
+              fontSize={{ md: 15, xs: 10 }}
+            >
+              Sivaganesh
+            </Typography>
           </a>
         </Box>
-        <a href="https://shamlin.dev" target="_blank" rel="noreferrer" >
-        <Typography
-          textAlign={isSmallScreen ? "left" : "right"}
-          variant="ptSerif"
-          fontWeight={400}
-          color="#BFA57B"
-          marginRight={1}
-          fontSize={{ md: 15, xs: 10 }}
-        >
-          Developed and maintained by Shamlin and
-        </Typography>
-        </a>
-        <a href="https://www.linkedin.com/in/sivaganesh-natarajavel-567a56237/" target="_blank" rel="noreferrer" >
-        <Typography
-          textAlign={isSmallScreen ? "left" : "right"}
-          variant="ptSerif"
-          fontWeight={400}
-          color="#BFA57B"
-          fontSize={{ md: 15, xs: 10 }}
-        >
-          Sivaganesh
-        </Typography>
-        </a>
       </Box>
     </div>
   );
