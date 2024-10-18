@@ -5,9 +5,9 @@ import { SnackbarProvider } from "notistack";
 import { Navbar } from "./components/NavBar";
 import Footer from './components/Footer';
 import Home from "./pages/Home";
+// import Classes from "./pages/Services";
 // import Gallery from "./pages/Gallery";
 // import Contact from "./pages/Contact";
-// import Classes from "./pages/Classes";
 
 const theme = createTheme({
   typography: {
@@ -116,18 +116,6 @@ const theme = createTheme({
 
 export default function App() {
   return (
-    // <ThemeProvider theme={theme}>
-    //   <CssBaseline />
-    //   <SnackbarProvider>
-    //     <div className="App">
-    //     <Router>
-    //       <Routes>
-    //         <Route path="/" element={<Home />} />
-    //       </Routes>
-    //     </Router>
-    //     </div>
-    //   </SnackbarProvider>
-    // </ThemeProvider>
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <SnackbarProvider>
@@ -136,9 +124,9 @@ export default function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
+              {/* <Route path="/services" element={<Classes />} /> */}
               {/* <Route path="/gallery" element={<Gallery />} /> */}
               {/* <Route path="/contact" element={<Contact />} /> */}
-              {/* <Route path="/bharathanatyam-and-drawing" element={<Classes />} /> */}
             </Routes>
             <Footer />
           </Router>

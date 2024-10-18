@@ -8,11 +8,12 @@ import {
   Grid,
   Stack,
 } from "@mui/material";
-// import Intro from "../assets/Intro.png";
-// import Hero from "../assets/Hero.png";
-// import Hero2 from "../assets/Hero2.png";
-// import DanceLogo from "../assets/DanceLogo.png";
-// import DrawingLogo from "../assets/DrawingLogo.png";
+import Step1 from "../assets/1.png";
+import Step2 from "../assets/2.png";
+import Step3 from "../assets/3.png";
+import Step4 from "../assets/4.png";
+import Step5 from "../assets/5.png";
+import Step6 from "../assets/6.png";
 
 const Image = styled("img")({
   maxWidth: "70%",
@@ -28,7 +29,7 @@ const Home = () => {
   return (
     <div>
 
-      {/* W H A T   W E   P R O V I D E */}
+      {/* O U R    P R O C E S S  */}
 
       <Box bgcolor="#FFD700" textAlign="center" p={isSmallScreen ? 5 : 10}>
         <Typography
@@ -38,13 +39,16 @@ const Home = () => {
           display="block"
           mb={5}
         >
-          WHAT WE PROVIDE?
+          Our process
         </Typography>
+
+          {/*  S T E P  1 */}
+          
         <Grid container spacing={2} alignItems="center" justifyContent="center">
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={4}>
             <Image
-              // src={DanceLogo}
-              alt="DanceLogo image"
+              src={Step1}
+              alt="Dance image"
               style={{
                 maxWidth: "200px",
                 backgroundColor: "transparent",
@@ -52,18 +56,21 @@ const Home = () => {
             />
             <Typography
               variant="bebasNeue"
-              fontSize={{ md: 48, xs: 30 }}
+              fontSize={{ md: 40, xs: 30 }}
               color="black"
               display="block"
               mb={5}
             >
-              BHARATHANATYAM
+              1. Surface cleaning
             </Typography>
           </Grid>
-          <Grid item xs={12} md={6}>
+
+          {/*  S T E P  2 */}
+          
+          <Grid item xs={12} md={4}>
             <Image
-              // src={DrawingLogo}
-              alt="DrawingLogo image"
+              src={Step2}
+              alt="Dance image"
               style={{
                 maxWidth: "200px",
                 backgroundColor: "transparent",
@@ -71,14 +78,101 @@ const Home = () => {
             />
             <Typography
               variant="bebasNeue"
-              fontSize={{ md: 48, xs: 30 }}
+              fontSize={{ md: 40, xs: 30 }}
               color="black"
               display="block"
               mb={5}
             >
-              DRAWING
+              2. Crack filling
             </Typography>
           </Grid>
+
+          {/*  S T E P  3 */}
+          
+          <Grid item xs={12} md={4}>
+            <Image
+              src={Step3}
+              alt="Dance image"
+              style={{
+                maxWidth: "200px",
+                backgroundColor: "transparent",
+              }}
+            />
+            <Typography
+              variant="bebasNeue"
+              fontSize={{ md: 40, xs: 30 }}
+              color="black"
+              display="block"
+              mb={5}
+            >
+              3. Waterproof Priming
+            </Typography>
+          </Grid>
+
+          {/*  S T E P  4 */}
+
+          <Grid item xs={12} md={4}>
+            <Image
+              src={Step4}
+              alt="Drawing image"
+              style={{
+                maxWidth: "200px",
+                backgroundColor: "transparent",
+              }}
+            />
+            <Typography
+              variant="bebasNeue"
+              fontSize={{ md: 40, xs: 30 }}
+              color="black"
+              display="block"
+              mb={5}
+            >
+              4. Laying mesh 
+            </Typography>
+          </Grid>
+          {/*  S T E P  5 */}
+
+          <Grid item xs={12} md={4}>
+            <Image
+              src={Step5}
+              alt="Drawing image"
+              style={{
+                maxWidth: "200px",
+                backgroundColor: "transparent",
+              }}
+            />
+            <Typography
+              variant="bebasNeue"
+              fontSize={{ md: 40, xs: 30 }}
+              color="black"
+              display="block"
+              mb={5}
+            >
+              5. first coating
+            </Typography>
+          </Grid>
+          {/*  S T E P  6 */}
+
+          <Grid item xs={12} md={4}>
+            <Image
+              src={Step6}
+              alt="Drawing image"
+              style={{
+                maxWidth: "200px",
+                backgroundColor: "transparent",
+              }}
+            />
+            <Typography
+              variant="bebasNeue"
+              fontSize={{ md: 40, xs: 30 }}
+              color="black"
+              display="block"
+              mb={5}
+            >
+              6. more coating if needed
+            </Typography>
+          </Grid>
+
         </Grid>
         <Typography
           variant="bebasNeue"
