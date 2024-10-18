@@ -176,52 +176,15 @@ const Home = () => {
         </Grid>
         <Typography
           variant="bebasNeue"
-          fontSize={{ md: 48, xs: 30 }}
+          fontSize={{ md: 40, xs: 30 }}
           color="black"
           display="block"
           // mb={5}
         >
-          Learn the best of these fine arts
+          Now your buidling is ready to withstand any weather,<br></br>Heat or water
         </Typography>
-        <Typography
-          variant="bebasNeue"
-          fontSize={{ md: 48, xs: 30 }}
-          color="black"
-          display="block"
-          mb={5}
-        >
-          From the best
-        </Typography>
-        <Box
-          textAlign="center"
-          backgroundColor="transparent"
-          justifyContent="center"
-          px={isSmallScreen ? 1 : 20}
-        >
-          <Typography
-            variant="ptSerif"
-            textAlign="center"
-            fontSize={{ md: 25, xs: 22 }}
-            color="black"
-            sx={{ marginBottom: 2 }}
-            display="block"
-            fontWeight="bold"
-          >
-            Learn the best of the skills, from us at Sri Megala Kalaikudam.
-          </Typography>
-          <Typography
-            variant="ptSerif"
-            textAlign="center"
-            fontSize={{ md: 25, xs: 22 }}
-            color="black"
-            sx={{ marginBottom: 2 }}
-            display="block"
-            fontWeight="bold"
-          >
-            We operate at two centers and different times too! Choose the most
-            appropriate one and join us!
-          </Typography>
-        </Box>
+
+
       </Box>
     </div>
   );
