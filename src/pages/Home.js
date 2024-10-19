@@ -14,20 +14,70 @@ import Step3 from "../assets/3.png";
 import Step4 from "../assets/4.png";
 import Step5 from "../assets/5.png";
 import Step6 from "../assets/6.png";
+import Slider from 'react-slick';
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+
+const carouselImages = [
+  { src: Step1, label: 'Step 1' },
+  { src: Step2, label: 'Step 2' },
+  { src: Step3, label: 'Step 3' },
+  { src: Step4, label: 'Step 4' },
+  { src: Step5, label: 'Step 5' },
+  { src: Step6, label: 'Step 6' },
+];
 
 const Image = styled("img")({
-  maxWidth: "70%",
-  height: "auto",
+  width: "80vw", 
+  height: "auto", 
   display: "block",
   margin: "auto",
   backgroundColor: "transparent",
 });
 
+
 const Home = () => {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow:  1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
   return (
     <div>
+      <Box sx={{ padding: 2 }} mb={1}>
+      <Slider {...settings}>
+        {carouselImages.map((image, index) => (
+          <Box textAlign="center" key={index} padding={1}>
+            <Typography variant="h6" gutterBottom>
+              {image.label}
+            </Typography>
+            <Image src={image.src} alt={`Gallery Image ${index + 1}`} />
+          </Box>
+        ))}
+      </Slider>
+    </Box>
 
       {/* O U R    P R O C E S S  */}
 
@@ -42,8 +92,8 @@ const Home = () => {
           Our process
         </Typography>
 
-          {/*  S T E P  1 */}
-          
+        {/*  S T E P  1 */}
+
         <Grid container spacing={2} alignItems="center" justifyContent="center">
           <Grid item xs={12} md={4}>
             <Image
@@ -66,7 +116,7 @@ const Home = () => {
           </Grid>
 
           {/*  S T E P  2 */}
-          
+
           <Grid item xs={12} md={4}>
             <Image
               src={Step2}
@@ -88,7 +138,7 @@ const Home = () => {
           </Grid>
 
           {/*  S T E P  3 */}
-          
+
           <Grid item xs={12} md={4}>
             <Image
               src={Step3}
@@ -127,7 +177,7 @@ const Home = () => {
               display="block"
               mb={5}
             >
-              4. Laying mesh 
+              4. Laying mesh
             </Typography>
           </Grid>
           {/*  S T E P  5 */}
@@ -172,7 +222,6 @@ const Home = () => {
               6. more coating if needed
             </Typography>
           </Grid>
-
         </Grid>
         <Typography
           variant="bebasNeue"
@@ -181,10 +230,9 @@ const Home = () => {
           display="block"
           // mb={5}
         >
-          Now your buidling is ready to withstand any weather,<br></br>Heat or water
+          Now your buidling is ready to withstand any weather,<br></br>Heat or
+          water
         </Typography>
-
-
       </Box>
     </div>
   );
