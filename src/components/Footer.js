@@ -4,21 +4,9 @@ import {
   Typography,
   useTheme,
   useMediaQuery,
-  styled,
   Grid,
   Stack,
 } from "@mui/material";
-// import LocationOnIcon from "@mui/icons-material/LocationOn";
-// import EmailIcon from "@mui/icons-material/Email";
-// import PhoneIcon from "@mui/icons-material/Phone";
-
-const Image = styled("img")({
-  maxWidth: "70%",
-  height: "auto",
-  display: "block",
-  margin: "auto",
-  backgroundColor: "transparent",
-});
 
 const Footer = () => {
   const theme = useTheme();
@@ -275,7 +263,7 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="address1" target="_blank" href="https://maps.app.goo.gl/iQfL4Yh1EpnqGDS29">
+                    <a className="address1" target="_blank" rel="noreferrer" href="https://maps.app.goo.gl/iQfL4Yh1EpnqGDS29">
                       <i class="fa-solid fa-location-dot fa-xl"></i> No. 14,
                       Vedavinayagar Street, Gandhi Nagar, Avadi, Chennai - 600054
                     </a>

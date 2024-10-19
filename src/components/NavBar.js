@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import {
-  Box,
-  Typography,
   useTheme,
   useMediaQuery,
-  styled,
-  Grid,
-  Stack,
 } from "@mui/material";
 import Logo from "../assets/3sLogo.webp";
 
