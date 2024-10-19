@@ -8,6 +8,9 @@ import {
   Grid,
   Stack,
 } from "@mui/material";
+// import LocationOnIcon from "@mui/icons-material/LocationOn";
+// import EmailIcon from "@mui/icons-material/Email";
+// import PhoneIcon from "@mui/icons-material/Phone";
 
 const Image = styled("img")({
   maxWidth: "70%",
@@ -22,7 +25,7 @@ const Footer = () => {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <div>
-      <Box bgcolor="#38434A" textAlign="center" p={isSmallScreen ? 5 : 10}>
+      <Box bgcolor="#38434A" textAlign="center" p={isSmallScreen ? 5 : 7}>
         <Box backgroundColor="transparent" textAlign="left">
           <Typography
             variant="bebasNeue"
@@ -38,9 +41,9 @@ const Footer = () => {
         </Box>
         {/* next line */}
         <Box mt={5} backgroundColor="transparent" textAlign="center">
-          <Grid container spacing={2}>
+          <Grid container spacing={5}>
             {/* First Column */}
-            <Grid item xs={12} sm={4} mt={5}>
+            <Grid item xs={12} sm={3} mt={5}>
               <Box backgroundColor="transparent" textAlign="left">
                 <Typography
                   textAlign="left"
@@ -51,7 +54,7 @@ const Footer = () => {
                   letterSpacing={2}
                   fontSize={{ md: 30, xs: 25 }}
                 >
-                  Address
+                  About us
                 </Typography>
                 <Typography
                   textAlign="left"
@@ -61,48 +64,128 @@ const Footer = () => {
                   color="#BFA57B"
                   fontSize={{ md: 20, xs: 15 }}
                 >
-                  No. 14, Vedavinayagar Street, <br />
-                  Gandhi Nagar, <br />
-                  Avadi, Chennai - 600 054
+                  3S Water Proofing Solutions is your one-stop solution for all water leak issues, quickly becoming a leading and innovative waterproofing service provider in Chennai, Tamil Nadu.
                 </Typography>
               </Box>
             </Grid>
 
             {/* Second Column */}
-            <Grid item xs={12} sm={4} mt={5}>
+            <Grid item xs={12} sm={3} mt={5}>
               <Box backgroundColor="transparent" textAlign="left">
-                <Typography
-                  textAlign="left"
-                  display="block"
-                  variant="bebasNeue"
-                  color="#D9D9D9"
-                  fontWeight={700}
-                  letterSpacing={2}
-                  fontSize={{ md: 30, xs: 25 }}
-                >
-                  Services Provided
-                </Typography>
-                <Typography
-                  textAlign="left"
-                  variant="ptSerif"
-                  fontWeight={700}
-                  letterSpacing={1}
-                  color="#BFA57B"
-                  fontSize={{ md: 20, xs: 15 }}
-                >
-                  RajParis crystal spring apartment,
-                  <br />
-                  Mambakkam main road , Chithalapakkam, <br />
-                  Madambakkam, Chennai- 600126
-                </Typography>
+                <Stack backgroundColor="transparent" spacing={2}>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    display="block"
+                    variant="bebasNeue"
+                    color="#D9D9D9"
+                    fontWeight={700}
+                    letterSpacing={2}
+                    fontSize={{ md: 30, xs: 25 }}
+                  >
+                    Services Provided
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      Terrace water proofing
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="services">
+                      Sump leak arrest
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      OH tank leak
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      Bathroom leaks
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      Side Wall leaks
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      Inner wall leaks
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="footerLink" href="/services">
+                      Cool roofs
+                    </a>
+                  </Typography>
+                </Stack>
               </Box>
             </Grid>
             {/* Third Column */}
-            <Grid item xs={12} sm={4} mt={5}>
+            <Grid item xs={12} sm={3} mt={5}>
               <Box backgroundColor="transparent" textAlign="center">
-                <Stack backgroundColor="transparent">
+                <Stack backgroundColor="transparent" spacing={2}>
                   <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
                     display="block"
                     variant="bebasNeue"
                     color="#D9D9D9"
@@ -113,7 +196,8 @@ const Footer = () => {
                     Quick Links
                   </Typography>
                   <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
                     letterSpacing={1}
@@ -125,19 +209,21 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
                     letterSpacing={1}
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="footerLink" href="bharathanatyam-and-drawing">
-                      Classes
+                    <a className="footerLink" href="/services">
+                      Services
                     </a>
                   </Typography>
                   <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
                     letterSpacing={1}
@@ -149,7 +235,8 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
                     letterSpacing={1}
@@ -163,37 +250,93 @@ const Footer = () => {
                 </Stack>
               </Box>
             </Grid>
+            {/* Fourth Column */}
+            <Grid item xs={12} sm={3} mt={5}>
+              <Box backgroundColor="transparent" textAlign="center">
+                <Stack backgroundColor="transparent" spacing={2}>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    display="block"
+                    variant="bebasNeue"
+                    color="#D9D9D9"
+                    fontWeight={700}
+                    letterSpacing={2}
+                    fontSize={{ md: 30, xs: 25 }}
+                  >
+                    Contact Us
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="address1" target="_blank" href="https://maps.app.goo.gl/iQfL4Yh1EpnqGDS29">
+                      <i class="fa-solid fa-location-dot fa-xl"></i> No. 14,
+                      Vedavinayagar Street, Gandhi Nagar, Avadi, Chennai - 600054
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="mail1" href="mailto:3sbond1@gmail.com">
+                      <i class="fa-solid fa-envelope fa-xl"></i>{" "}
+                      example@email.com
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="phone1" href="tel:+91 98401 37762,">
+                      <i class="fa-solid fa-phone fa-xl"></i>{" "}98401 37762,
+                    </a>
+                  </Typography>
+                  <Typography
+                    // textAlign={isSmallScreen ? "left" : "right"}
+                    textAlign="left"
+                    variant="ptSerif"
+                    fontWeight={700}
+                    letterSpacing={1}
+                    color="#BFA57B"
+                    fontSize={{ md: 20, xs: 15 }}
+                  >
+                    <a className="phone1" href="tel:+91  98406 97762,">
+                      <i class="fa-solid fa-phone fa-xl"></i>{" "} 98406 97762,
+                    </a>
+                  </Typography>
+                </Stack>
+              </Box>
+            </Grid>
           </Grid>
         </Box>
         {/* next line */}
-        <Box backgroundColor="transparent" mt={7} mb={2} textAlign="center">
-          <a href="https://shamlin.dev" target="_blank" rel="noreferrer">
+        <Box backgroundColor="transparent" mt={7}  textAlign="center">
             <Typography
               textAlign={isSmallScreen ? "left" : "right"}
               variant="ptSerif"
               fontWeight={400}
-              color="#BFA57B"
+              color="#f9f9f9"
               marginRight={1}
               fontSize={{ md: 15, xs: 10 }}
             >
-              Developed and maintained by Shamlin and
+              ©2024 3S Water Proofing Solutions, All Rights Reserved
             </Typography>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sivaganesh-natarajavel-567a56237/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Typography
-              textAlign={isSmallScreen ? "left" : "right"}
-              variant="ptSerif"
-              fontWeight={400}
-              color="#BFA57B"
-              fontSize={{ md: 15, xs: 10 }}
-            >
-              Sivaganesh
-            </Typography>
-          </a>
         </Box>
       </Box>
     </div>
