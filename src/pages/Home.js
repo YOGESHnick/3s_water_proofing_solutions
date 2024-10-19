@@ -119,10 +119,10 @@ const Home = () => {
       <Box backgroundColor="" sx={{ padding: 4 }} mt={5} mb={5} >
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={12} sm={6}>
-            <Typography variant="h4" component="h2" mb={2} gutterBottom>
+            <Typography color="#001F3F" variant="h4" component="h2" mb={2} gutterBottom>
               3S Water Proofing Solutions
             </Typography>
-            <Typography mb={2} variant="body1">
+            <Typography color="#001F3F" mb={2} variant="body1">
               3S Water Proofing Solutions is your one-stop solution for all
               water leak issues, quickly becoming a leading and innovative
               waterproofing service provider in Chennai, Tamil Nadu. We
@@ -356,7 +356,7 @@ const Home = () => {
           fontSize={{ md: 40, xs: 30 }}
           color="#001F3F"
           display="block"
-          mb={5}
+          // mb={5}
         >
           Now your buidling is ready to withstand any weather,<br></br>Heat or
           water
@@ -367,4 +367,3 @@ const Home = () => {
 };
 
 export default Home;
-
