@@ -1,14 +1,26 @@
 import { Link } from "react-router-dom";
+import {
+  Box,
+  Typography,
+  useTheme,
+  useMediaQuery,
+  styled,
+  Grid,
+  Stack,
+} from "@mui/material";
 import Logo from "../assets/3sLogo.webp";
 
 export const Navbar = () => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg mnc py-lg-4">
         <div className="container-fluid ">
           <a className="navbar-brand" href="/">
             <img src={Logo} className="logo top-logo" alt="logo"></img>
-            3S Water Proofing Solutions
+            {!isSmallScreen && <span>3S Water Proofing Solutions</span>}
           </a>
           <button
             className="navbar-toggler tgl ms-auto"
