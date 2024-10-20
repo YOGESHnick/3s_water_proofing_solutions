@@ -6,7 +6,7 @@ import { Navbar } from "./components/NavBar";
 import Footer from './components/Footer';
 import Home from "./pages/Home";
 // import Classes from "./pages/Services";
-// import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
 const theme = createTheme({
@@ -125,7 +125,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               {/* <Route path="/services" element={<Classes />} /> */}
-              {/* <Route path="/gallery" element={<Gallery />} /> */}
+              <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
