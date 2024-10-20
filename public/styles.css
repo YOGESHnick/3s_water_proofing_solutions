@@ -77,7 +77,8 @@ form button{
     font-weight: bold;
     font-size: 20px;
     background-color: black;
-    color:#ffc800;
+    /* color:#ffc800; */
+    color: rgb(66, 171, 216);
 }
 button:hover
 {
@@ -98,11 +99,15 @@ form
     max-width: 800px;
 }
 
+::placeholder{
+    color: #001F3F;
+}
+
 form input,textarea,select,button{
     border-radius: 5px;
-    color: #382B4D;
+    color: #001F3F;
     border: none;
-    border-bottom: 2px solid #382B4D;
+    border-bottom: 2px solid #001F3F;
     margin-top:35px;
     font-family: 'Bebas Neue';
     font-size: 18px;
@@ -112,15 +117,15 @@ form button{
     min-height: 50px;
     font-weight: bold;
     font-family: "Bebas Neue";
-    background-color: #382B4D;
+    background-color: #001F3F;
 }
 form i {
     margin-right: 10px;
 }
 form button:hover
 {
-    color:black;
-    background-color: #ffc800;
+    color:#001F3F;
+    background-color: rgb(66, 171, 216);;
     border: 5px solid black;
 }
 .phone1, .mail1, .address1, i{

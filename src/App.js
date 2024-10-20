@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Home from "./pages/Home";
 // import Classes from "./pages/Services";
 // import Gallery from "./pages/Gallery";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 const theme = createTheme({
   typography: {
@@ -126,7 +126,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               {/* <Route path="/services" element={<Classes />} /> */}
               {/* <Route path="/gallery" element={<Gallery />} /> */}
-              {/* <Route path="/contact" element={<Contact />} /> */}
+              <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
           </Router>
