@@ -137,7 +137,7 @@ const Contact = () => {
 
           </Grid>
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="left">
-          <iframe title="Branch 2" width="100%" height="400px" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15557.115759155648!2d80.1738715!3d12.8897768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52593c43c632cd%3A0x4440fa2ad33f0448!2sRajparis%20Crystal%20Spring%20Garden!5e0!3m2!1sen!2sin!4v1719245607878!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="Branch 2" width="100%" height="400px" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.629721708265!2d80.0922471!3d13.120875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5289d3549c274f%3A0x6dd02145cd456f43!2s14%2C%20Vedavinayagar%20St%2C%20Gandhi%20Nagar%2C%20Avadi%2C%20Tamil%20Nadu%20600054!5e0!3m2!1sen!2sin!4v1729394171758!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
         </Grid>
       </Box>
