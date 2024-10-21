@@ -291,7 +291,7 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="phone1" href="tel:+91 98401 37762,">
+                    <a className="phone1" href="tel:+91 98401 37762">
                       <i class="fa-solid fa-phone fa-xl"></i>{" "}98401 37762
                     </a>
                   </Typography>
@@ -304,7 +304,7 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="phone1" href="tel:+91  98406 97762,">
+                    <a className="phone1" href="tel:+91  98406 97762">
                       <i class="fa-solid fa-phone fa-xl"></i>{" "} 98406 97762
                     </a>
                   </Typography>

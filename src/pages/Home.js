@@ -147,8 +147,8 @@ const Home = () => {
       <Box
         mt={5} mb={5}
         sx={{
-          backgroundColor: "#001F3F", // Blue background
-          color: "white", // White text color
+          backgroundColor: "#001F3F", 
+          color: "white", 
           padding: isSmallScreen ? 4 : 6,
           borderRadius: 2,
         }}
