@@ -108,6 +108,7 @@ form
 }
 
 form input,textarea,select,button{
+    letter-spacing: 2px;
     border-radius: 5px;
     color: #001F3F;
     border: none;

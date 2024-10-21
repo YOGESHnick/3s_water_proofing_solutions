@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Grid, Box, Typography } from '@mui/material';
 
 const ProjectGallery = ({ images, title }) => {
@@ -20,6 +21,7 @@ const ProjectGallery = ({ images, title }) => {
       <Grid container spacing={2} mb={5}>
         {images.map((image, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
+          <Link to="/services">
             <Box
               component="img"
               src={image}
@@ -30,6 +32,7 @@ const ProjectGallery = ({ images, title }) => {
                 objectFit: 'cover',
               }}
             />
+          </Link>
           </Grid>
         ))}
       </Grid>

@@ -7,7 +7,6 @@ import {
   useMediaQuery,
   styled,
   Grid,
-  // Stack,
 } from "@mui/material";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

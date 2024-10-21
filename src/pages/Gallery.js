@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
+import { Link } from "react-router-dom";
 import ProjectGallery from "../components/ProjectGallery";
 
 import P1_1 from "../assets/Project1/1.jpeg";
@@ -108,11 +109,12 @@ const Gallery = () => {
 
   return (
     <div>
-      <Box
+      {/* <Link to="/contact"> */}
+        <Box
         backgroundColor="transparent"
-        p={isSmallScreen ? 0 : 10}
+        p={isSmallScreen ? 0 : 5}
         paddingBottom={isSmallScreen ? 2 : 0}
-      >
+        >
         <Typography
           variant="bebasNeue"
           fontSize={{ md: 48, xs: 30 }}
@@ -122,7 +124,7 @@ const Gallery = () => {
           Our projects
         </Typography>
         <Box
-          p={isSmallScreen ? 2 : 10}
+          p={isSmallScreen ? 2 : 5}
           paddingBottom={isSmallScreen ? 2 : 0}
           mb={10}
         >
@@ -140,7 +142,8 @@ const Gallery = () => {
           <ProjectGallery images={project12Images} title="House in Pattabiram" />
 
         </Box>
-      </Box>
+        </Box>
+      {/* </Link> */}
     </div>
   );
 };
