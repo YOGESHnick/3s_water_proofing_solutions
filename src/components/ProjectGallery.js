@@ -21,7 +21,7 @@ const ProjectGallery = ({ images, title }) => {
       <Grid container spacing={2} mb={5}>
         {images.map((image, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
-          <Link to="/services">
+          <Link to="/contact">
             <Box
               component="img"
               src={image}
