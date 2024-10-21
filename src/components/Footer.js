@@ -62,7 +62,6 @@ const Footer = () => {
               <Box backgroundColor="transparent" textAlign="left">
                 <Stack backgroundColor="transparent" spacing={2}>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     display="block"
                     variant="bebasNeue"
@@ -74,7 +73,6 @@ const Footer = () => {
                     Services Provided
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -87,7 +85,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -100,7 +97,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -113,7 +109,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -126,7 +121,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -139,7 +133,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -152,7 +145,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -172,7 +164,6 @@ const Footer = () => {
               <Box backgroundColor="transparent" textAlign="center">
                 <Stack backgroundColor="transparent" spacing={2}>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     display="block"
                     variant="bebasNeue"
@@ -184,7 +175,6 @@ const Footer = () => {
                     Quick Links
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -197,7 +187,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -210,7 +199,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -223,7 +211,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -243,7 +230,6 @@ const Footer = () => {
               <Box backgroundColor="transparent" textAlign="center">
                 <Stack backgroundColor="transparent" spacing={2}>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     display="block"
                     variant="bebasNeue"
@@ -255,7 +241,6 @@ const Footer = () => {
                     Contact Us
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -269,7 +254,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -283,7 +267,7 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
+
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -296,7 +280,6 @@ const Footer = () => {
                     </a>
                   </Typography>
                   <Typography
-                    // textAlign={isSmallScreen ? "left" : "right"}
                     textAlign="left"
                     variant="ptSerif"
                     fontWeight={700}
@@ -313,8 +296,27 @@ const Footer = () => {
             </Grid>
           </Grid>
         </Box>
+
         {/* next line */}
-        <Box backgroundColor="transparent" mt={7}  textAlign="center">
+
+        {/* MSME */}
+
+        <Box backgroundColor="transparent" textAlign="center" mt={7}>
+          <Typography
+              textAlign={isSmallScreen ? "left" : "right"}
+              variant="ptSerif"
+              fontWeight={600}
+              color="#f9f9f9"
+              marginRight={1}
+              fontSize={{ md: 15, xs: 10 }}
+            >
+              MSME Reg No: TN-2-0116268
+            </Typography>
+        </Box>
+
+        {/* R I G H T S */}
+
+        <Box backgroundColor="transparent" textAlign="center">
             <Typography
               textAlign={isSmallScreen ? "left" : "right"}
               variant="ptSerif"
