@@ -261,7 +261,7 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="mail1" href="mailto:3sbond1@gmail.com">
+                    <a className="mail1" href="mailto:barnsley1975@gmail.com">
                       <i class="fa-solid fa-envelope fa-xl"></i>{" "}
                       3sbond1@gmail.com
                     </a>

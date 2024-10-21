@@ -39,7 +39,7 @@ const Contact = () => {
           </Grid>
           <Grid item xs={12} md={6}>
             <form
-              action="https://formsubmit.co/3sbond1@gmail.com" method="POST" >
+              action="https://formsubmit.co/barnsley1975@gmail.com" method="POST" >
               <Typography
                 variant="bebasNeue"
                 fontSize={{ md: 48, xs: 30 }}

@@ -152,6 +152,15 @@ const Home = () => {
           borderRadius: 2,
         }}
       >
+        <Typography
+                variant="bebasNeue"
+                fontSize={{ md: 48, xs: 30 }}
+                color="#f9f9f9"
+                display="block"
+                mb={5}
+              >
+                Why choose us?
+              </Typography>
         <Grid container spacing={isSmallScreen ? 2 : 4} justifyContent="center">
           {features.map((feature, index) => (
             <Grid item xs={12} sm={4} key={index} textAlign="center">
