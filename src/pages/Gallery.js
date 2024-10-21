@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
-import { Link } from "react-router-dom";
 import ProjectGallery from "../components/ProjectGallery";
 
 import P1_1 from "../assets/Project1/1.jpeg";
