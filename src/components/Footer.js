@@ -263,7 +263,7 @@ const Footer = () => {
                   >
                     <a className="mail1" href="mailto:barnsley1975@gmail.com">
                       <i class="fa-solid fa-envelope fa-xl"></i>{" "}
-                      3sbond1@gmail.com
+                      barnsley1975@gmail
                     </a>
                   </Typography>
                   <Typography
