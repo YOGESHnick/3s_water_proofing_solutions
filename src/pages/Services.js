@@ -53,13 +53,8 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Terrace waterproofing ensures 100% long-lasting protection against leaks and water damage.
+                Our expert team provides seamless solutions to keep your terrace completely dry and secure.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -102,13 +97,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                We offer professional sump tank waterproofing in Chennai, ensuring leak-free water storage. Our team thoroughly inspects your tank to identify issues and provides effective, budget-friendly solutions to protect your property and maintain structural integrity.
               </Typography>
             </Grid>
           </Grid>
@@ -137,13 +126,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Our advanced OH tank waterproofing solutions use cutting-edge technology and premium materials to ensure a leak-proof structure. Choose from a range of finishes that provide lasting protection and meet the highest industry standards.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -186,13 +169,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Protect your home from bathroom leaks with our specialized waterproofing services in Chennai. Our tailored solutions ensure durability and safeguard your floors and walls from future water damage.
               </Typography>
             </Grid>
           </Grid>
@@ -221,13 +198,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Shield your property from moisture damage with our expert side wall waterproofing services. Our team uses advanced techniques and high-quality materials to create a reliable barrier against water intrusion, ensuring the longevity of your structure and your peace of mind.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -270,13 +241,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Protect your interiors from dampness with our professional inner wall waterproofing services. We utilize cutting-edge solutions and premium materials to prevent moisture infiltration, safeguarding your home and enhancing its durability for years to come.
               </Typography>
             </Grid>
           </Grid>
@@ -305,13 +270,7 @@ const Services = () => {
                 mb={2}
                 variant="body1"
               >
-                3S Water Proofing Solutions is your one-stop solution for all
-                water leak issues, quickly becoming a leading and innovative
-                waterproofing service provider in Chennai, Tamil Nadu. We
-                specialize in terrace waterproofing, sump leak arrest, OH tank
-                leaks, bathroom leak solutions, side wall leaks, inner wall
-                leaks, and cool roof solutions. Our services ensure that your
-                building remains safe and dry!
+                Transform your building with our premium cool roofing solutions. Designed to combat heat and ensure a comfortable indoor environment, our expert services provide a durable and effective barrier against the elements, enhancing the longevity of your roof.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
