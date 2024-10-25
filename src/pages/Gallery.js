@@ -78,9 +78,10 @@ import P11_1 from "../assets/Project11/1.jpeg";
 import P11_2 from "../assets/Project11/2.JPG";
 import P11_3 from "../assets/Project11/3.JPG";
 import P11_4 from "../assets/Project11/4.JPG";
-import P11_5 from "../assets/Project11/5.JPG";
-import P11_6 from "../assets/Project11/5.JPG";
-import P11_7 from "../assets/Project11/5.JPG";
+import P11_5 from "../assets/Project11/5.jpeg";
+import P11_6 from "../assets/Project11/6.jpeg";
+import P11_7 from "../assets/Project11/7.jpeg";
+
 
 import P12_1 from "../assets/Project12/1.jpeg";
 import P12_2 from "../assets/Project12/2.JPG";
