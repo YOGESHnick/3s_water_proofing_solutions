@@ -38,7 +38,6 @@ import P5_7 from "../assets/Project5/7.JPG";
 import P5_8 from "../assets/Project5/8.JPG";
 import P5_9 from "../assets/Project5/9.JPG";
 
-
 import P6_1 from "../assets/Project6/1.jpeg";
 import P6_2 from "../assets/Project6/2.JPG";
 import P6_3 from "../assets/Project6/3.JPG";
@@ -82,13 +81,62 @@ import P11_5 from "../assets/Project11/5.jpeg";
 import P11_6 from "../assets/Project11/6.jpeg";
 import P11_7 from "../assets/Project11/7.jpeg";
 
-
 import P12_1 from "../assets/Project12/1.jpeg";
 import P12_2 from "../assets/Project12/2.JPG";
 import P12_3 from "../assets/Project12/3.JPG";
 import P12_4 from "../assets/Project12/4.JPG";
 import P12_5 from "../assets/Project12/5.JPG";
 import P12_6 from "../assets/Project12/6.JPG";
+
+import P13_1 from "../assets/Project13/1.jpeg";
+import P13_2 from "../assets/Project13/2.jpeg";
+import P13_3 from "../assets/Project13/3.jpeg";
+import P13_4 from "../assets/Project13/4.jpeg";
+import P13_5 from "../assets/Project13/5.jpeg";
+
+import P14_1 from "../assets/Project14/1.jpeg";
+import P14_2 from "../assets/Project14/2.jpeg";
+import P14_3 from "../assets/Project14/3.jpeg";
+import P14_4 from "../assets/Project14/4.jpeg";
+import P14_5 from "../assets/Project14/5.jpeg";
+import P14_6 from "../assets/Project14/6.jpeg";
+
+import P15_1 from "../assets/Project15/1.jpeg";
+import P15_2 from "../assets/Project15/2.jpeg";
+import P15_3 from "../assets/Project15/3.jpeg";
+import P15_4 from "../assets/Project15/4.jpeg";
+import P15_5 from "../assets/Project15/5.jpeg";
+import P15_6 from "../assets/Project15/6.jpeg";
+
+import P16_1 from "../assets/Project16/1.jpeg";
+import P16_2 from "../assets/Project16/2.jpeg";
+import P16_3 from "../assets/Project16/3.jpeg";
+import P16_4 from "../assets/Project16/4.jpeg";
+import P16_5 from "../assets/Project16/5.jpeg";
+import P16_6 from "../assets/Project16/6.jpeg";
+
+import P17_1 from "../assets/Project17/1.jpeg";
+import P17_2 from "../assets/Project17/2.jpeg";
+import P17_3 from "../assets/Project17/3.jpeg";
+import P17_4 from "../assets/Project17/4.jpeg";
+import P17_5 from "../assets/Project17/5.jpeg";
+import P17_6 from "../assets/Project17/6.jpeg";
+
+import P18_1 from "../assets/Project18/1.jpeg";
+import P18_2 from "../assets/Project18/2.jpeg";
+import P18_3 from "../assets/Project18/3.jpeg";
+import P18_4 from "../assets/Project18/4.jpeg";
+import P18_5 from "../assets/Project18/5.jpeg";
+import P18_6 from "../assets/Project18/6.jpeg";
+import P18_7 from "../assets/Project18/7.jpeg";
+import P18_8 from "../assets/Project18/8.jpeg";
+
+import P19_1 from "../assets/Project19/1.jpeg";
+import P19_2 from "../assets/Project19/2.jpeg";
+import P19_3 from "../assets/Project19/3.jpeg";
+import P19_4 from "../assets/Project19/4.jpeg";
+import P19_5 from "../assets/Project19/5.jpeg";
+import P19_6 from "../assets/Project19/6.jpeg";
 
 const project1Images = [P1_1, P1_2, P1_3, P1_4, P1_5, P1_6];
 const project2Images = [P2_1, P2_2, P2_3, P2_4, P2_5, P2_6];
@@ -100,8 +148,33 @@ const project7Images = [P7_1, P7_2, P7_3, P7_4, P7_5];
 const project8Images = [P8_1, P8_2, P8_3, P8_4, P8_5, P8_6];
 const project9Images = [P9_0, P9_1, P9_2, P9_3, P9_4, P9_5, P9_6, P9_7];
 const project10Images = [P10_1, P10_2, P10_3, P10_4, P10_5];
-const project11Images = [P11_0, P11_1, P11_2, P11_3, P11_4, P11_5, P11_6, P11_7];
+const project11Images = [
+  P11_0,
+  P11_1,
+  P11_2,
+  P11_3,
+  P11_4,
+  P11_5,
+  P11_6,
+  P11_7,
+];
 const project12Images = [P12_1, P12_2, P12_3, P12_4, P12_5, P12_6];
+const project13Images = [P13_1, P13_2, P13_3, P13_4, P13_5];
+const project14Images = [P14_1, P14_2, P14_3, P14_4, P14_5, P14_6];
+const project15Images = [P15_1, P15_2, P15_3, P15_4, P15_5, P15_6];
+const project16Images = [P16_1, P16_2, P16_3, P16_4, P16_5, P16_6];
+const project17Images = [P17_1, P17_2, P17_3, P17_4, P17_5, P17_6];
+const project18Images = [
+  P18_1,
+  P18_2,
+  P18_3,
+  P18_4,
+  P18_5,
+  P18_6,
+  P18_7,
+  P18_8,
+];
+const project19Images = [P19_1, P19_2, P19_3, P19_4, P19_5, P19_6];
 
 const Gallery = () => {
   const theme = useTheme();
@@ -110,11 +183,11 @@ const Gallery = () => {
   return (
     <div>
       {/* <Link to="/contact"> */}
-        <Box
+      <Box
         backgroundColor="transparent"
         p={isSmallScreen ? 0 : 5}
         paddingBottom={isSmallScreen ? 2 : 0}
-        >
+      >
         <Typography
           variant="bebasNeue"
           fontSize={{ md: 48, xs: 30 }}
@@ -129,20 +202,74 @@ const Gallery = () => {
           mb={10}
         >
           <ProjectGallery images={project1Images} title="House in Ambattur" />
-          <ProjectGallery images={project2Images} title="Factory in Pondicherry" />
-          <ProjectGallery images={project3Images} title="Nazerath Academy - Avadi" />
-          <ProjectGallery images={project4Images} title="Good shepherd church - Pattabiram" />
-          <ProjectGallery images={project5Images} title="Factory in Tirubuvanai" />
-          <ProjectGallery images={project6Images} title="Water tank leak arrest" />
+          <ProjectGallery
+            images={project2Images}
+            title="Factory in Pondicherry"
+          />
+          <ProjectGallery
+            images={project3Images}
+            title="Nazerath Academy - Avadi"
+          />
+          <ProjectGallery
+            images={project4Images}
+            title="Good shepherd church - Pattabiram"
+          />
+          <ProjectGallery
+            images={project5Images}
+            title="Factory in Tirubuvanai"
+          />
+          <ProjectGallery
+            images={project6Images}
+            title="Water tank leak arrest"
+          />
           <ProjectGallery images={project7Images} title="House at Vasarpadi" />
-          <ProjectGallery images={project8Images} title="Nazareth school - Avadi" />
-          <ProjectGallery images={project9Images} title="ECI church Head office" />
-          <ProjectGallery images={project10Images} title="Poclain Hydraulics Factory" />
-          <ProjectGallery images={project11Images} title="Factory water drain line water proofing work" />
-          <ProjectGallery images={project12Images} title="House in Pattabiram" />
-
+          <ProjectGallery
+            images={project8Images}
+            title="Nazareth school - Avadi"
+          />
+          <ProjectGallery
+            images={project9Images}
+            title="ECI church Head office"
+          />
+          <ProjectGallery
+            images={project10Images}
+            title="Poclain Hydraulics Factory"
+          />
+          <ProjectGallery
+            images={project11Images}
+            title="Factory water drain line water proofing work"
+          />
+          <ProjectGallery
+            images={project12Images}
+            title="House in Pattabiram"
+          />
+          <ProjectGallery
+            images={project13Images}
+            title="House in Madipakkam"
+          />
+          <ProjectGallery
+            images={project14Images}
+            title="SS Bala Flats - Ambattur"
+          />
+          <ProjectGallery
+            images={project15Images}
+            title="Billy Graham chapel Kilpauk"
+          />
+          <ProjectGallery
+            images={project16Images}
+            title="SU camp site - Mahabalipuram"
+          />
+          <ProjectGallery images={project17Images} title="SU - Guest house" />
+          <ProjectGallery
+            images={project18Images}
+            title="Ruby Flats Paint work"
+          />
+          <ProjectGallery
+            images={project19Images}
+            title="Arresting leaks at corrugated roofs"
+          />
         </Box>
-        </Box>
+      </Box>
       {/* </Link> */}
     </div>
   );

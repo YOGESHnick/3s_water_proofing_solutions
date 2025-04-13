@@ -24,19 +24,21 @@ import Step6 from "../assets/6.png";
 import Terrace from "../assets/Terrace.jpeg";
 import Sump from "../assets/Sump.jpeg";
 import OHTank from "../assets/OHTank.jpeg";
-import Bathroom from "../assets/Bathroom.jpeg";
+// import Bathroom from "../assets/Bathroom.jpeg";
 import SideWall from "../assets/SideWall.jpeg";
 import InnerWall from "../assets/InnerWall.jpeg";
 import CoolRoof from "../assets/CoolRoof.jpeg";
+import CorrugatedRoofs from "../assets/CorrugatedRoofs.jpeg";
 
 const carouselImages = [
   { src: Terrace, label: "Terrace water proofing" },
   { src: Sump, label: "Sump leak arrest" },
   { src: OHTank, label: "OH tank leaks" },
-  { src: Bathroom, label: "Bathroom leaks" },
+  // { src: Bathroom, label: "Bathroom leaks" },
   { src: SideWall, label: "Side Wall leaks" },
   { src: InnerWall, label: "Inner Wall leaks" },
   { src: CoolRoof, label: "Cool roofs" },
+  { src: CorrugatedRoofs, label: "Arresting leaks at corrugated roofs" },
 ];
 
 const LandingImage = styled("img")(({ theme }) => ({
@@ -115,10 +117,16 @@ const Home = () => {
   };
   return (
     <div>
-      <Box backgroundColor="" sx={{ padding: 4 }} mt={5} mb={5} >
+      <Box backgroundColor="" sx={{ padding: 4 }} mt={5} mb={5}>
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={12} sm={6}>
-            <Typography color="#001F3F" variant="h4" component="h2" mb={2} gutterBottom>
+            <Typography
+              color="#001F3F"
+              variant="h4"
+              component="h2"
+              mb={2}
+              gutterBottom
+            >
               3S Water Proofing Solutions
             </Typography>
             <Typography color="#001F3F" mb={2} variant="body1">
@@ -144,23 +152,24 @@ const Home = () => {
       {/* W H Y   C H O O S E   U S */}
 
       <Box
-        mt={5} mb={5}
+        mt={5}
+        mb={5}
         sx={{
-          backgroundColor: "#001F3F", 
-          color: "white", 
+          backgroundColor: "#001F3F",
+          color: "white",
           padding: isSmallScreen ? 4 : 6,
           borderRadius: 2,
         }}
       >
         <Typography
-                variant="bebasNeue"
-                fontSize={{ md: 48, xs: 30 }}
-                color="#f9f9f9"
-                display="block"
-                mb={5}
-              >
-                Why choose us?
-              </Typography>
+          variant="bebasNeue"
+          fontSize={{ md: 48, xs: 30 }}
+          color="#f9f9f9"
+          display="block"
+          mb={5}
+        >
+          Why choose us?
+        </Typography>
         <Grid container spacing={isSmallScreen ? 2 : 4} justifyContent="center">
           {features.map((feature, index) => (
             <Grid item xs={12} sm={4} key={index} textAlign="center">
@@ -170,7 +179,9 @@ const Home = () => {
               <Typography variant="h6" gutterBottom>
                 {feature.name}
               </Typography>
-              <Typography color="white" variant="body2">{feature.description}</Typography>
+              <Typography color="white" variant="body2">
+                {feature.description}
+              </Typography>
             </Grid>
           ))}
         </Grid>
@@ -179,17 +190,17 @@ const Home = () => {
       {/*  S E R V I C E S    C A R O U S E L  */}
 
       <Box sx={{ padding: 2 }} mt={5} mb={5}>
-      <Typography
-            variant="bebasNeue"
-            color="#001F3F"
-            fontSize={{ md: 48, xs: 30 }}
-            textAlign="left"
-            fontWeight="bold"
-            sx={{ lineHeight: isSmallScreen ? "1.0" : "normal" }}
-            letterSpacing={2}
-          >
-            Overview of Services we provide
-          </Typography>
+        <Typography
+          variant="bebasNeue"
+          color="#001F3F"
+          fontSize={{ md: 48, xs: 30 }}
+          textAlign="left"
+          fontWeight="bold"
+          sx={{ lineHeight: isSmallScreen ? "1.0" : "normal" }}
+          letterSpacing={2}
+        >
+          Overview of Services we provide
+        </Typography>
         <Link to="/services">
           <Slider {...settings}>
             {carouselImages.map((image, index) => (
@@ -224,7 +235,14 @@ const Home = () => {
 
         {/*  S T E P  1 */}
 
-        <Grid container mt={2} mb={2} spacing={2} alignItems="center" justifyContent="center">
+        <Grid
+          container
+          mt={2}
+          mb={2}
+          spacing={2}
+          alignItems="center"
+          justifyContent="center"
+        >
           <Grid item xs={12} md={4}>
             <Image
               src={Step1}
