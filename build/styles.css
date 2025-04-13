@@ -1,0 +1,147 @@
+*{
+    text-align: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+.try{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo{
+    max-width: 50px;
+}
+.top-logo{
+    margin-right: 5px;
+    margin-left:5px;
+}
+.tgl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: fit-content;
+}
+.navbar-brand{
+    font-family: 'IBM Plex Mono';
+    font-size: 2.5vh;
+    color: rgb(7, 56, 85);
+}
+.Link{
+    background-color: transparent;
+    font-family: 'IBM Plex Mono';
+    text-decoration: none;
+    transition: transform .4s;
+    font-size: .9em;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+Link,a,button{
+    cursor: pointer;
+}
+.quote{
+    background-color: rgb(19, 69, 110);
+    font-family: 'IBM Plex Mono';
+    text-decoration: none;
+    transition: transform .4s;
+    font-size: .9em;
+    font-weight: bold;
+    color: white;
+}
+.footerLink,a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #BFA57B;
+}
+.gimme-margin-top{
+    align-self: center;
+}
+a button {
+    font-family: 'ptSerif';
+    font-weight: bolder;
+    height: 50px;
+    font-size: 20px;
+}
+.classes{
+    background-color: #000000;
+    color: #ffc800;
+}
+button{
+    color: white;
+    border-radius: 5px;
+    padding: "5px";
+    background-color: rgb(66, 171, 216);
+    border: none;
+    margin-top:35px;
+    font-family: 'ptSerif';
+    font-size: 18px;
+    width:150px ;
+}
+form button{
+    width:100%;
+    min-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    /* color:#ffc800; */
+    color: rgb(66, 171, 216);
+}
+button:hover
+{
+    color: rgb(66, 171, 216);
+    background-color: #001F3F;
+}
+.classes:hover{
+    background-color: #38434A;
+    color: #F7C97E;
+}
+
+/* form */
+form
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+::placeholder{
+    color: #001F3F;
+}
+
+form input,textarea,select,button{
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: #001F3F;
+    border: none;
+    border-bottom: 2px solid #001F3F;
+    margin-top:35px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+form button{
+    width:100%;
+    min-height: 50px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    background-color: #001F3F;
+}
+form i {
+    margin-right: 10px;
+}
+form button:hover
+{
+    color:#001F3F;
+    background-color: rgb(66, 171, 216);;
+    border: 5px solid black;
+}
+.phone1, .mail1, .address1, i{
+    /* color: #F9F9F9; */
+    background: transparent;
+}
+.fa-phone {
+    background: transparent;
+    margin-right: 5px;
+}
+i{
+    background-color: transparent;
+    background: none;
+}
