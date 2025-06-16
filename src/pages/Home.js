@@ -30,6 +30,9 @@ import InnerWall from "../assets/InnerWall.jpeg";
 import CoolRoof from "../assets/CoolRoof.jpeg";
 import CorrugatedRoofs from "../assets/CorrugatedRoofs.jpeg";
 
+// SEO
+import { Helmet } from "react-helmet";
+
 const carouselImages = [
   { src: Terrace, label: "Terrace water proofing" },
   { src: Sump, label: "Sump leak arrest" },
@@ -117,6 +120,50 @@ const Home = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>
+          3S Waterproofing Solutions | Terrace, Bathroom & Wall Leak Repairs in
+          Chennai
+        </title>
+        <meta
+          name="description"
+          content="3S Waterproofing Solutions is your one-stop waterproofing expert in Chennai, Tamil Nadu. We fix terrace, sump, bathroom, wall leaks, and more. Fast and reliable service!"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="3S Waterproofing Solutions" />
+        <meta
+          name="keywords"
+          content="waterproofing Chennai, terrace waterproofing, sump leak repair, wall leak solution, bathroom waterproofing, cool roof coating, OH tank waterproofing"
+        />
+
+        {/* Open Graph Meta (for social media preview) */}
+        <meta
+          property="og:title"
+          content="3S Waterproofing Solutions | Expert Leak Repairs in Chennai"
+        />
+        <meta
+          property="og:description"
+          content="We provide expert waterproofing for terrace, bathroom, sump, walls, and more. Trusted in Chennai."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://3swaterproofing.com/" />
+        <meta
+          property="og:image"
+          content="https://3swaterproofing.com/static/media/3sLogo.a03fe7c9d9e6b96b44c8.webp"
+        />
+
+        {/* Optional: Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="3S Waterproofing Solutions" />
+        <meta
+          name="twitter:description"
+          content="Professional waterproofing services in Chennai."
+        />
+        <meta
+          name="twitter:image"
+          content="https://3swaterproofing.com/static/media/3sLogo.a03fe7c9d9e6b96b44c8.webp"
+        />
+      </Helmet>
       <Box backgroundColor="" sx={{ padding: 4 }} mt={5} mb={5}>
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={12} sm={6}>
