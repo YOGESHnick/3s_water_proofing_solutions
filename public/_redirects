@@ -1,1 +1,5 @@
 /*  /index.html  200
+
+# Allow sitemap.xml and robots.txt to be served as static files
+/sitemap.xml  /sitemap.xml  200
+/robots.txt   /robots.txt   200
