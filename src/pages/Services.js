@@ -16,6 +16,9 @@ import SideWall from "../assets/SideWall.jpeg";
 import InnerWall from "../assets/InnerWall.jpeg";
 import CoolRoof from "../assets/CoolRoof.jpeg";
 
+// SEO
+import { Helmet } from "react-helmet";
+
 const Image = styled("img")(({ isSmallScreen }) => ({
   maxWidth: isSmallScreen ? "100%" : "500px",
   width: isSmallScreen ? "auto" : "auto",
@@ -31,6 +34,56 @@ const Services = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Waterproofing Services in Chennai | Terrace, Sump, OH Tank & Wall Leak
+          Fixes
+        </title>
+        <meta
+          name="description"
+          content="Explore expert waterproofing services from 3S Waterproofing Solutions in Chennai. We fix terrace leaks, sump tank issues, OH tank problems, and wall seepage with premium solutions."
+        />
+        <meta
+          name="keywords"
+          content="terrace waterproofing Chennai, sump waterproofing, OH tank leak repair, inner wall waterproofing, side wall water damage fix, cool roof solutions Chennai"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="3S Waterproofing Solutions" />
+
+        {/* Open Graph Meta */}
+        <meta
+          property="og:title"
+          content="Waterproofing Services in Chennai | 3S Waterproofing"
+        />
+        <meta
+          property="og:description"
+          content="Professional waterproofing for terraces, tanks, walls & roofs in Chennai. Trusted by homeowners and businesses for leak-free results."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://3swaterproofing.com/services"
+        />
+        <meta
+          property="og:image"
+          content="https://3swaterproofing.com/static/media/Terrace.2ddc05711ffc685199e1.jpeg"
+        />
+
+        {/* Twitter Card Meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="3S Waterproofing Solutions | Expert Leak Repairs"
+        />
+        <meta
+          name="twitter:description"
+          content="End-to-end waterproofing solutions for terraces, sump tanks, walls, and roofs in Chennai. Fast, reliable service from 3S Waterproofing."
+        />
+        <meta
+          name="twitter:image"
+          content="https://3swaterproofing.com/static/media/Terrace.2ddc05711ffc685199e1.jpeg"
+        />
+      </Helmet>
       {/* T E R R A C E  */}
 
       <Link to="/contact" className="enlarge">
