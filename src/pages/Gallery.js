@@ -138,6 +138,9 @@ import P19_4 from "../assets/Project19/4.jpeg";
 import P19_5 from "../assets/Project19/5.jpeg";
 import P19_6 from "../assets/Project19/6.jpeg";
 
+// SEO
+import { Helmet } from "react-helmet";
+
 const project1Images = [P1_1, P1_2, P1_3, P1_4, P1_5, P1_6];
 const project2Images = [P2_1, P2_2, P2_3, P2_4, P2_5, P2_6];
 const project3Images = [P3_1, P3_2, P3_3, P3_4, P3_5];
@@ -182,6 +185,56 @@ const Gallery = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Our Projects | Construction & Waterproofing Works in Tamil Nadu
+        </title>
+        <meta
+          name="description"
+          content="Explore a gallery of completed projects including homes, schools, churches, and factories across Chennai, Ambattur, Pondicherry, and more. We specialize in waterproofing, leak arrest, and civil engineering work."
+        />
+        <meta
+          name="keywords"
+          content="construction projects, waterproofing, leak arrest, civil works, Chennai, Pondicherry, Ambattur, churches, factories, homes, project gallery"
+        />
+
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="Our Projects | Civil Engineering & Waterproofing Specialists"
+        />
+        <meta
+          property="og:description"
+          content="Browse our completed construction and waterproofing projects. Quality civil work for homes, churches, schools, and factories across Tamil Nadu."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://3swaterproofing.com/gallery" />
+        <meta
+          property="og:image"
+          content="https://3swaterproofing.com/static/media/6.69342b542e47a938bf88.JPG"
+        />
+
+        {/* Canonical */}
+        <link rel="canonical" href="https://3swaterproofing.com/gallery" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Our Projects | Civil Engineering & Waterproofing Specialists"
+        />
+        <meta
+          name="twitter:description"
+          content="See how we transformed buildings and spaces through quality civil and waterproofing work."
+        />
+        <meta
+          name="twitter:image"
+          content="https://3swaterproofing.com/static/media/6.69342b542e47a938bf88.JPG"
+        />
+        {/* <meta name="twitter:site" content="@yourTwitterHandle" /> */}
+        {/* <meta name="twitter:creator" content="@yourTwitterHandle" /> */}
+      </Helmet>
+
       {/* <Link to="/contact"> */}
       <Box
         backgroundColor="transparent"
