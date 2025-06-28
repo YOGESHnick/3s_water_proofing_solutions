@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://3swaterproofing.com/</loc>
-    <url><loc>https://3swaterproofing.com/services</loc></url>
-    <url><loc>https://3swaterproofing.com/gallery</loc></url>
-    <url><loc>https://3swaterproofing.com/contact</loc></url>
+  </url>
+  <url>
+    <loc>https://3swaterproofing.com/services</loc>
+  </url>
+  <url>
+    <loc>https://3swaterproofing.com/gallery</loc>
+  </url>
+  <url>
+    <loc>https://3swaterproofing.com/contact</loc>
   </url>
 </urlset>
